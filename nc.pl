@@ -1,5 +1,5 @@
 use Socket; 
-$i="10.0.0.1"; 
+$i="x.x.x.x"; 
 $p=1234; 
 socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp")); 
 if(connect(S,sockaddr_in($p,inet_aton($i)))){ 
